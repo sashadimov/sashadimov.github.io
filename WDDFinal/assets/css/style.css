@@ -1,0 +1,678 @@
+body {
+	margin: 0px;
+}
+html {
+	margin: 0px;
+}
+/* Navigation Bar */
+
+
+#navbar {
+	width: 100%;
+	background-color: white;
+	height: 60px;
+	position: fixed;
+	opacity: .9;
+	z-index: 50;
+}
+
+#navbar.hidden {
+  transform:translateY(-100%);
+}
+
+#logo img{
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 45px;
+  position: fixed;
+
+}
+
+#logo:hover {
+	cursor: pointer;
+}
+
+#menu {
+	position: fixed;
+	right: 20px;
+	top: 4px;
+
+}
+
+.menu-item {
+	float: left;
+	position: relative;
+	padding: 18px;
+
+}
+
+.menu-item a{
+	font-family: 'Cutive Mono', monospace;
+	color: black;
+	text-decoration: none;
+}
+.menu-item:hover{
+	cursor: pointer;	
+	opacity: .47;
+}
+
+/* Landing */
+
+.heading {
+	position: absolute;
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 45.39px;
+	font-size: 35px;
+	color: white;
+	animation: fadeInDown 2s;
+}
+
+#la {
+	top: 280px;
+	left: 430px;
+	z-index: 10;
+	
+}
+
+#la a{
+	text-decoration: none;
+	color: white;
+}
+
+#mw {
+	top: 485px;
+	left: 725px;
+	z-index: 10;
+	
+}
+#mw a{
+	text-decoration: none;
+	color: white;
+}
+
+#mw:hover {
+	cursor: pointer;
+}
+
+.black-block {
+	background-color: black;
+	position: absolute;
+	height: 5px;
+	width: 48px;
+
+
+}
+
+#black1 {
+	top: 75px;
+	left: 382px;
+	animation: fadeInDownbig 2s;
+	
+}
+
+#black2 {
+	top: 219px;
+	left: 382px;
+	animation: fadeInDownbig 2s;
+}
+
+
+#title {
+	position: absolute;
+	left: 382px;
+	top: 90px;
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 58px;
+	font-size: 60px;
+	animation: fadeInDown 2s;
+	
+	
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -40%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownsmall {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDownbig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -900%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: .47;
+    transform: none;
+  }
+}
+
+
+
+.accent-block {
+	background-color: #FFB317;
+	opacity: .47;
+	height: 117px;
+	width: 298px;
+	animation: fadeIn 2s;
+
+}
+
+#block1 {
+	left: 160px;
+	top: 450px;
+	position: absolute;
+	z-index: 10;
+}
+
+#block2 {
+	left: 590px;
+	top: 230px;
+	position: absolute;
+	height: 87px;
+}
+
+#profile-photo {
+	position: absolute; 
+	top: 30px; 
+	left: 10px;
+	z-index: 12;
+	animation: fadeInDownsmall 2s;
+	
+}
+
+#profile-photo:hover {
+	cursor: pointer;
+}
+
+#profile-photo img{
+	width: 345px;
+
+	
+}
+
+#little-adventures {
+	position: absolute;
+	left: 382px;
+	top: 270px;
+	z-index: 8;
+	animation: fadeInDownsmall 2s;
+}
+
+#little-adventures:hover {
+	cursor: pointer;
+
+
+}
+
+
+
+#la:hover {
+	cursor: pointer;
+}
+
+
+#little-adventures img{
+	width: 290px;
+
+	
+}
+#portfolio {
+	position: absolute;
+	left: 699px;
+	top: 270px;
+	animation: fadeInDownsmall 2s;
+}
+
+#portfolio img{
+	height: 275px;
+
+	
+}
+
+#portfolio:hover {
+	cursor: pointer;
+}
+
+#landing {
+	background-color: white;
+	width: 100%;
+	height: 1000px;
+	top: 60px;
+	position: absolute;
+
+}
+
+
+.arrow img{
+	width: 30px;
+	
+}
+
+#arrow1 {
+	left: 860px;
+	top: 680px;
+	position: absolute;
+	z-index: 80;
+}
+
+/* About Box */
+
+#question {
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 45.39px;
+	font-size: 46px;
+	color: white;
+	line-height: 45.39px;
+	text-align: center;
+	margin-top: 35px;
+	
+}
+
+#about {
+	top: 700px;
+
+}
+
+#about-box {
+	background-color: #A9BFB6;
+	height: 220px;
+	width: 970px;
+	position: absolute;
+	top: 800px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+#description {
+	font-family: 'Cutive Mono', monospace;
+	color: white;
+	margin: 35px;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+#quote {
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	top: 1120px;
+	position: absolute;
+	font-size: 40px;
+	line-height: 50px;
+	margin-left: 20px;
+	z-index: 2;
+}
+
+#black4 {
+	width: 138px;
+	height: 4px;
+	margin-left: 20px;
+	top: 1290px;
+
+}
+
+#black5 {
+	width: 138px;
+	height: 4px;
+	top: 1100px;
+	margin-left: 20px;
+}
+#info {
+	font-family: 'Cutive Mono', monospace;
+	color: black;
+	width: 39%;
+	position: absolute;
+	top: 1080px;
+	left: 600px;
+	margin-left: 30px;
+	font-size: 15px;
+}
+
+#block6 {
+	position: absolute;
+	top: 1235px;
+	width: 181px;
+	height: 28px;
+	margin-left: 80px;
+}
+
+
+/* Work */
+
+#work {
+	position: absolute;
+	top: 1400px;
+}
+
+.cover {
+	height: 350px;
+	width: 300px;
+	position: relative;
+	background-color: #A9BFB6;
+	margin-right: 35px;
+	float: left;
+	margin-bottom: 35px;
+	z-index: 10;
+	overflow: hidden;
+	
+		
+}
+
+.cover:hover {
+	cursor: pointer;
+
+
+
+}
+
+.cover img{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: width .6s ease-out;
+
+
+}
+
+.cover:hover img{
+	width: 110%;
+	transition: .6s ease-in-out;
+}
+
+#venmo img{
+	height: 100%;
+	width: auto;
+	transition: height .6s ease-out;
+}
+
+#venmo:hover img {
+	transition: .6s ease-in-out;
+	height: 112%;
+}
+
+
+.row {
+	margin: 15px;
+}
+
+#block3 {
+	top: 1650px;
+	left: 650px;
+	position: absolute;
+	height: 320px;
+	width: 513px;
+}
+
+
+/* resume */
+
+#more {
+	font-family: 'Cutive Mono', monospace;
+	color: black;
+	position: absolute;
+	top: 2250px;
+	margin-left: 50px;
+	font-size: 25px;
+}
+
+#drawnarrow img{
+	position: absolute;
+	width: 70px;
+	top: 2290px;
+	margin-left: 90px;
+}
+#resume-link {
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	position: absolute;
+	font-size: 120px;
+	top: 2280px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	color: black;
+}
+
+#resume-link:hover {
+	cursor: pointer;
+	opacity: .6;
+
+}
+
+#block4 {
+	top: 2380px;
+	left: 330px;
+	position: absolute;
+	height: 69px;
+	width: 617px;
+	
+
+}
+
+#block4:hover {
+	cursor: pointer;
+	
+}
+
+
+#box {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 2000px;
+}
+
+
+
+/* contact */
+
+#contact-photo img{
+	width: 972px;
+}
+
+#contact-photo {
+	top: 2600px;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+#sh {
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	position: absolute;
+	font-size: 80px;
+	top: 2700px;
+	left: 650px;
+	z-index: 2;
+	color: white;
+}
+
+#email {
+	font-family: 'Cutive Mono', monospace;
+	font-style: normal;
+	font-weight: 500;
+	position: absolute;
+	font-size: 20px;
+	top: 2830px;
+	left: 650px;
+	z-index: 2;
+	color: white;
+	width: 30%;
+	line-height: 25px;
+}
+
+#button {
+	position: absolute;
+	background-color: white;
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	position: absolute;
+	font-size: 20px;
+	top: 2970px;
+	left: 650px;
+	z-index: 10;
+	padding: 10px;
+	border-radius: 7px;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+#button:hover {
+	cursor: pointer;
+	padding: 12px;
+	transition: .4s;
+}
+
+/* instagram */
+
+#photos {
+	position: absolute;
+	top: 3400px;
+}
+
+
+#photos img{
+	width: 780px;
+}
+
+#block5 {
+	width: 600px;
+	height: 400px;
+	top: 2900px;
+	left: 580px;
+	position: absolute;
+}
+
+#insta {
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	top: 3450px;
+	position: absolute;
+	font-size: 45.78px;
+	width: 30%;
+	line-height: 50px;
+	left: 960px;
+
+
+}
+
+#insta a{
+	color: black;
+	text-decoration: none;
+}
+
+#insta:hover {
+	cursor: pointer;
+	opacity: .6;
+}
+
+#wm {
+	font-family: 'Cutive Mono', monospace;
+	color: black;
+	position: absolute;
+	top: 3330px;
+	margin-left: 60px;
+	font-size: 30px;
+}
+
+#black3 {
+	width: 915px;
+	top: 3650px;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+#logo2 img{
+	top: 3800px;
+	position: absolute;
+	width: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-bottom: 40px;
+
+}
+
+#logo2:hover {
+	cursor: pointer;
+}
+
+#black6 {
+	top: 3430px;
+	left: 960px;
+	width: 90px;
+	height: 4px;
+}
+
+#black7 {
+	top: 3570px;
+	left: 960px;
+	width: 90px;
+	height: 4px;
+}
+
+#love {
+	position: absolute;
+	font-family: 'Cutive Mono', monospace;
+	color: black;
+	position: absolute;
+	top: 3820px;
+	margin-left: 800px;
+	font-size: 8px;
+	opacity: .5;
+
+}
+
+
+
+
+#content {
+	position: static;
+	margin: 0 auto;
+	width: 1000px;
+}
