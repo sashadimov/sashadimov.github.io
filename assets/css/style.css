@@ -396,12 +396,12 @@ html {
 		
 }
 
-.cover:hover {
+/* .cover:hover {
 	cursor: pointer;
 
 
 
-}
+}*/
 
 .cover img{
     width: 100%;
@@ -413,10 +413,10 @@ html {
 
 }
 
-.cover:hover img{
+/*.cover:hover img{
 	width: 110%;
 	transition: .6s ease-in-out;
-}
+}*/
 
 #venmo img{
 	height: 100%;
